@@ -1,0 +1,41 @@
+<swiper indicator-dots="true" autoplay='true' interval='5000' duration='1000' circular='true'>
+  <swiper-item class="item-box" wx:for="{{lunboList}}" wx:key='{{index}}'>
+    <view>
+      <image src="{{item.src}}"></image>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="second">
+  <view bindtap="addList">
+    <view class="secondicont">
+      <image src="../../image/tj.png"></image>
+    </view>
+    <view class="secondfont">发布运单</view>
+  </view>
+
+  <view>
+    <view class="secondicont">
+      <image src="../../image/hd.png"></image>
+    </view>
+    <!-- <text class="secondfont">如何使用</text> -->
+    <view class="secondfont">小跑运单</view>
+  </view>
+  
+  <view>
+    <view class="secondicont">
+      <image src="../../image/sm.png"></image>
+    </view>
+    <view class="secondfont">使用说明</view>
+  </view>
+</view>
+
+<view class="cellbox">
+  <van-cell-group>
+    <van-cell title="热点新闻" is-link value="Go!" />
+    <van-cell title="最近天气" is-link value="Go!" />
+    <van-cell title="推荐路线" is-link value="Go!" />
+  </van-cell-group>
+</view>
+ <!-- <van-toast id="custom-selector" /> -->
+  

@@ -1,0 +1,54 @@
+swiper {
+  /* background-color: #b5b5b5 */
+}
+
+.item-box view {
+  margin: 0 auto;
+  width: 86%;
+  height: 148px;
+ 
+}
+
+.item-box view image {
+  width: 100%;
+  height: 100%;
+}
+
+.second {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second>view {
+  width: 24%;
+  /* height: 100%; */
+  /* border: 1px solid red; */
+}
+
+.secondicont {
+  width: 100rpx;
+  margin: 8px auto;
+  /* border: 1px solid red; */
+}
+
+.secondfont {
+  width: 60%;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+  font-size: 26rpx;
+  text-align: center
+}
+
+.secondicont image {
+  width: 100rpx;
+  height: 100rpx;
+  /* border: 1px solid red; */
+}
+.cellbox{
+  width: 96%;
+  margin: 0 auto;
+  /* border: 1px solid red */
+}
