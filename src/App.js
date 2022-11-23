@@ -1,11 +1,12 @@
-import './App.css';
+import { Provider } from 'react-redux'
+import state from './redux/reducer/MTRoor'
 import AppContent from './AppContent';
 
 function App() {
   return (
-    <div className="App">
-      <AppContent/>
-    </div>
+    <Provider store={state}>
+        <AppContent/>
+    </Provider>
   );
 }
 

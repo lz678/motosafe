@@ -3,7 +3,7 @@ import axios from 'axios'
 axios.defaults.baseURL = 'http://www.motosafe.xyz:3000/'
 //设置请求超时时间
 axios.defaults.timeout = 10000
-const reg = /^(http|https)/
+// const reg = /^(http|https)/
 //axios请求拦截器（request）
 axios.interceptors.request.use(
     // 在请求发送之前做一些事
