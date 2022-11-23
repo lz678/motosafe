@@ -24,6 +24,7 @@ const AppContent = () => {
         window.removeEventListener("resize", _judgeKeyboardState);
     }
     let _judgeKeyboardState = () => {
+        // 解决 andriod 软键盘打开-关闭后  造成网页高度被破坏
         const resizeHeight = document.body.clientHeight
         var u = navigator.userAgent;
         let isAndroid = u.indexOf("Android") > -1 || u.indexOf("Adr") > -1; //android终端
