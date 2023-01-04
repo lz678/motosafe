@@ -15,6 +15,7 @@ Page({
       {
         src:"../../image/lunbo1.png"
       }
+      
     ]
   },
   addList:function(event){
