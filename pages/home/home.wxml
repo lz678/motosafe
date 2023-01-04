@@ -1,5 +1,5 @@
 <swiper indicator-dots="true" autoplay='true' interval='5000' duration='1000' circular='true'>
-  <swiper-item class="item-box" wx:for="{{lunboList}}" wx:key='{{index}}'>
+  <swiper-item class="item-box" wx:for="{{lunboList}}" wx:key="index">
     <view>
       <image src="{{item.src}}"></image>
     </view>

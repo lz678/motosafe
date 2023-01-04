@@ -16,16 +16,16 @@
 //     }
 //   })
 // }
-const myrequest = ({
-  url='',
-  params={},
+const myrequest = (
+  url = '',
+  params = {},
   method = "post"
-}) => {
-  let server = 'http://lzapi.lll1.vip:3000/'
+) => {
+  let server = 'www.runing.xyz:3000'
   return wx.request({
     url: server + url,
     data: params,
-    method:method,
+    method: method,
     success(res) {
       console.log(res)
     },
