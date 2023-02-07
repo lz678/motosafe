@@ -4,6 +4,29 @@ Page({
   /**
    * 页面的初始数据
    */
+// "tabBar": {
+//   "backgroundColor": "#000",
+//    "list": [
+//      {
+//        "pagePath": "pages/home/home",
+//        "text": "首页",
+//        "iconPath": "image/s1.png",
+//        "selectedIconPath": "image/s2.png"      },
+//      {
+//        "pagePath": "pages/index/index",
+//        "text": "订单",
+//        "iconPath": "image/d1.png",
+//        "selectedIconPath": "image/d11.png"
+//      },
+//      {
+//        "pagePath": "pages/person/person",
+//        "text": "个人中心",
+//        "iconPath": "image/g1.png",
+//        "selectedIconPath": "image/g2.png"
+//      }
+//    ]
+//  }
+
   data: {
     lunboList:[
       {

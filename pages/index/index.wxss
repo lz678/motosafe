@@ -1,26 +1,105 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.bbox {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.introduce_box {
+  color: #fff;
+  text-align: center;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.look_for {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px
 }
 
-.usermotto {
-  margin-top: 200px;
+.h_title {
+  font-size: 38px;
+  color: rgb(247, 218, 100);
 }
-.cellbox{
-  width: 86%;
+
+.select {
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.desc {
+  padding: 4px 0 0 0;
   margin: 0 auto;
-  border: 1px solid red
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+  width: 300px;
+  margin: 10px auto 20px;
+  padding-left: 24px;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1b1c;
+  color: rgb(255, 152, 0, 0.9);
+  line-height: 33px
+}
+.form_box {
+  width: 72%;
+  margin: 0 auto;
+}
+.input_item_box {
+  /* width: 85%; */
+  margin: 0 auto;
+  color: #fff;
+}
+
+.input_item_box .input_item_label {
+  display: block;
+  padding-bottom: 4px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.input_item_box .err_tip {
+  height: 13px;
+    font-size: 12px;
+    color: rgb(243, 96, 96);
+}
+
+/* .input_box {} */
+
+.input_box input {
+  outline: none;
+  /* width: 100%; */
+  height: 36px;
+  padding: 0 40px 0 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #CBCED4;
+  color: #1a1b1c;
+  transition: all .3s;
+  user-select: text;
+  caret-color: rgba(26, 27, 28, 0.45);
+}
+.btn {
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 36px;
+  background: rgba(255, 120, 45, 0.9);
+  box-shadow: 0 2px 10px #ff782d26;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
 }

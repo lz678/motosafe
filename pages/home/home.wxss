@@ -1,3 +1,7 @@
+.bbox {
+  height: 100vh;
+  background-color: #000;
+}
 swiper {
   /* background-color: #b5b5b5 */
 }

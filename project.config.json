@@ -13,6 +13,7 @@
         "coverView": true,
         "nodeModules": true,
         "autoAudits": false,
+        "scopeDataCheck": false,
         "checkInvalidKey": true,
         "checkSiteMap": false,
         "uploadWithSourceMap": true,
@@ -24,7 +25,7 @@
             "disablePlugins": [],
             "outputPath": ""
         },
-        "useIsolateContext": true,
+        "useIsolateContext": false,
         "userConfirmedBundleSwitch": false,
         "packNpmManually": false,
         "packNpmRelationList": [],
@@ -32,13 +33,12 @@
         "disableUseStrict": false,
         "minifyWXML": true,
         "showES6CompileOption": false,
-        "useCompilerPlugins": false,
-        "scopeDataCheck": false
+        "useCompilerPlugins": false
     },
     "compileType": "miniprogram",
     "libVersion": "2.14.4",
-    "appid": "wxf5788237ae6215b0",
-    "projectname": "%E6%88%90%E4%BB%80%E5%BF%AB%E7%BA%BF",
+    "appid": "wxeabf59a113462d1d",
+    "projectname": "motosafe",
     "debugOptions": {
         "hidedInDevtools": []
     },
