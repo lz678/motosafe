@@ -3,11 +3,20 @@
         <view class='look_for'>Look for us!</view>
         <view class='h_title'>专业摩托车保险</view>
         <text class='desc'>
-            我们将会为您提供办理摩托车保险的业务\n专人一对一服务，给出最专业意见和建议\n交强险 三者险 盗抢险 车损险
+            我们将会为您提供办理摩托车保险的业务\n专人一对一服务，给出最专业意见和建议
         </text>
-        <text class='desc'>
-            添加微信号motosafe
+        <text class='type'>
+            交强险 三者险 盗抢险
         </text>
+        <view class='conect'>
+            如何联系我们呢！
+        </view>
+        <view class='desc1'>
+            1. 添加微信号motosafe
+        </view>
+        <view class='desc1'>
+            2. 在网站www.motosafe.xyz填写基本信息
+        </view>
     </view>
     <!-- <view>
         <view class="img_box">
