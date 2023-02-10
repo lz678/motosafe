@@ -31,7 +31,7 @@
 }
 .conect {
     padding: 30px 0 10px 0;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .desc {
