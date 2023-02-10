@@ -8,7 +8,11 @@
     color: #fff;
     text-align: center;
 }
-
+.nav {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
 .look_for {
     display: block;
     text-align: center;

@@ -1,5 +1,6 @@
 <view class="bbox">
     <view class='introduce_box'>
+        <view class='nav'>摩安保（临时界面）</view>
         <view class='look_for'>Look for us!</view>
         <view class='h_title'>专业摩托车保险</view>
         <text class='desc'>
