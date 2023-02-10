@@ -35,7 +35,8 @@
     font-size: 15px;
 }
 .desc1 {
+    width: 270px;
     text-align: left;
     font-size: 14px;
-    padding: 7px 0 0 26px;
+    margin: 7px auto;
 }
