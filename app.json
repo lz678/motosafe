@@ -11,7 +11,7 @@
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#000000",
-        "navigationBarTitleText": "摩安保(临时界面)",
+        "navigationBarTitleText": "摩安保",
         "navigationBarTextStyle": "white"
     },
     "sitemapLocation": "sitemap.json"

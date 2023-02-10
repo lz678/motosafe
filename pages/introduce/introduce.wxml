@@ -15,7 +15,10 @@
             1. 添加微信号motosafe
         </view>
         <view class='desc1'>
-            2. 在网站www.motosafe.xyz填写基本信息
+            2. 在网站上填写基本信息
+        </view>
+        <view class='desc1'>
+            （网站地址在公众号文章中）
         </view>
     </view>
     <!-- <view>
