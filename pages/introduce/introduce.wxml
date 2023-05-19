@@ -10,16 +10,16 @@
             交强险 三者险 盗抢险
         </text>
         <view class='conect'>
-            如何联系我们呢！
+            如何购买呢！
         </view>
         <view class='desc1'>
-            1. 添加微信号motosafe
+            1. 添加微信号<text class="font1"> motosafe</text> ( 推荐 )
         </view>
         <view class='desc1'>
             2. 在网站上填写基本信息
         </view>
         <view class='desc1'>
-            （网站地址在公众号文章中）
+            （www.motosafe.xyz）
         </view>
     </view>
     <!-- <view>
