@@ -7,10 +7,18 @@
 .left_content {
     width: 60%;
     height: 100%;
+    position: relative;
     overflow: hidden;
     img {
         width: 100%;
         height: auto;
+    }
+    .ICP {
+        position: absolute;
+        right: 20px;
+        bottom: 14px;
+        color: #ffffff;
+        font-size: 14px;
     }
 }
 
@@ -32,6 +40,17 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     overflow-y: auto;
+    .ICP {
+        position: absolute;
+        left: 50%;
+        bottom: 40px;
+        transform: translateX(-50%);
+        color: #ffffff;
+        display: none;
+        width: max-content;
+        margin: 0 auto;
+        font-size: 14px;
+    }
 }
 
 .header_box {
@@ -179,8 +198,7 @@
         display: unset;
         width: 100%;
         overflow: scroll;
-
-        .header_box {
+        .ICP {
             display: block;
         }
     }
