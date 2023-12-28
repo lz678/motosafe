@@ -5,5 +5,8 @@ export default {
     },
     addCount :(data)=>{
         return axios.post('/api/addCount',data)
+    },
+    getInsurance: ()=>{
+        return axios.get('/api/getInsurance')
     }
 }

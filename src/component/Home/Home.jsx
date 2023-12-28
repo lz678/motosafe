@@ -11,12 +11,14 @@ const Home = () => {
     const [name, setName] = useState('')
     const [car, serCar] = useState('')
     const [phone, setPhone] = useState('')
+    const [num, setNum] = useState(null)
 
     let nameRef = useRef(null)
     let carRef = useRef(null)
     let phoneRef = useRef(null)
     useEffect(() => {
         _addCount()
+        _getInsuranceData()
     }, [])
     let _addCount = () => {
         try {
@@ -76,6 +78,17 @@ const Home = () => {
             }))
         }
     }
+    let _getInsuranceData = () => {
+        try {
+            MTNetwork.getInsurance().then((res) => {
+                let list = res.data
+                let curNum = list[0].num
+                setNum(curNum)
+            })
+        } catch (e) {
+            setNum(899)
+        }
+    }
     return (
         <div className={Style.home_box} id='home_box_id'>
             <div className={Style.left_content}>
@@ -87,9 +100,9 @@ const Home = () => {
                 <div className={Style.introduce_box}>
                     <span className={Style.look_for}>Look for us!</span>
                     <h1 className={Style.h_title}>专业摩托车保险</h1>
-                    {/* <span className={Style.select}>交强 | 三者</span> */}
                     <span className={Style.desc}>
-                        我们将会为您提供办理摩托车保险的业务<br/>专人一对一服务，给出最专业意见和建议
+                        我们将会为您提供办理摩托车保险的业务<br/>专人一对一服务 给出最专业意见和建议<br/>交强险  三者险  盗抢险  车损险<br/>
+                        微信号：<span className={Style.one}>motosafe</span>
                     </span>
                 </div>
 
@@ -146,13 +159,14 @@ const Home = () => {
                         </div>
 
                         <span className={Style.tip_text}>
-                            提交成功后，工作人员会在1~2天内电话联系您！
+                            提交成功后，工作人员会在短时间内电话联系您！
                         </span>
 
                     </div>
                     <div className={Style.submit} onClick={_submit}>
                         提交
                     </div>
+                    <div className={Style.insurance_num}>累计给{num}位骑士提供服务</div>
                 </div>
                 <a href="https://beian.miit.gov.cn/" target="_blank" className={Style.ICP}>蜀ICP备2022027478号-2</a>
             </div>

@@ -9,6 +9,7 @@
     height: 100%;
     position: relative;
     overflow: hidden;
+
     img {
         width: 100%;
         height: auto;
@@ -19,6 +20,7 @@
         bottom: 14px;
         color: #ffffff;
         font-size: 14px;
+        text-decoration: none;
     }
 }
 
@@ -30,7 +32,6 @@
 //    background-color: rgba(95, 125, 139, 0.05);
 //}
 .right_content {
-    padding: 0 0 20px 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -53,40 +54,33 @@
     }
 }
 
-.header_box {
-    display: none;
-    width: 100%;
-    height: 60px;
-    background-color: #FF822C;
-    background: linear-gradient(to right,
-            rgb(198, 255, 221),
-            rgb(251, 215, 134),
-            rgb(247, 121, 125));
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 20px;
-}
 .introduce_box {
     margin-top: 40px;
     color: #fff;
     text-align: center;
-    .look_for  {
+
+    .look_for {
         display: block;
         text-align: center;
-        font-size: 24px;
+        font-size: 34px;
         font-weight: 700;
         line-height: 33px
     }
+
     .h_title {
         font-size: 42px;
-        color: rgb(247,218,100);
+        //color: rgb(247, 218, 100);
+        color: #ff5908;
+        color: #ff6412;
+        margin: 18px 0;
     }
+
     .select {
         padding-top: 10px;
         display: block;
         text-align: center;
     }
+
     .desc {
         padding: 4px 0 0 0;
         margin: 0 auto;
@@ -94,12 +88,15 @@
         width: 300px;
         text-align: center;
         font-size: 15px;
-        color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.9);
+        .one {
+            color: #ff6412;
+        }
     }
 }
 
 .input_content {
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -116,6 +113,7 @@
     color: rgb(255, 152, 0, 0.9);
     line-height: 33px
 }
+
 .title {
     width: 300px;
     margin: 0 auto 20px;
@@ -149,6 +147,7 @@
         margin-top: 0;
     }
 }
+
 .tip_box {
     margin: 4px auto 0;
     width: 300px;
@@ -156,18 +155,20 @@
     align-items: center;
     color: rgba(255, 255, 255, 0.95);
     font-size: 12px;
+
     .icon_box {
         margin-right: 8px;
         width: 18px;
         height: 18px;
     }
+
     .tip_text {
         display: block;
     }
 }
 
 .submit {
-    margin: 50px auto 0;
+    margin: 45px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,8 +189,17 @@
         box-shadow: unset;
     }
 }
+.insurance_num {
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
 
-@media screen and (max-width:830px) {
+@media screen and (max-width: 830px) {
     .left_content {
         display: none;
     }
@@ -198,8 +208,14 @@
         display: unset;
         width: 100%;
         overflow: scroll;
-        .ICP {
-            display: block;
+        padding: 0 0 20px 0;
+        //.ICP {
+        //  display: block;
+        //}
+        .introduce_box {
+            .look_for {
+                font-size: 26px;
+            }
         }
     }
 }

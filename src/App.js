@@ -6,7 +6,7 @@ import Apply from "./component/Apply/Apply";
 function App() {
   return (
     <Provider store={state}>
-        {/*<AppContent/>*/}
+        <AppContent/>
         {/*<Apply/>*/}
     </Provider>
   );

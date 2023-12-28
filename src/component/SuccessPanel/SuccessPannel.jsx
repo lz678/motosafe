@@ -10,7 +10,7 @@ let SuccessPanel = () => {
         <div className={Style.pannel_box}>
             <div className={Style.content}>
                 <span className={Style.text}>
-                    信息提交成功！工作人员会在1~2工作日内联系您！
+                    信息提交成功！工作人员会在短时间内联系您！
                 </span>
                 <div className={Style.btn} onClick={_ok}>
                     确定
