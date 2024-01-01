@@ -38,6 +38,7 @@ const Home = () => {
     let _phoneChange = (value) => {
         setPhone(value)
     }
+
     let _check = () => {
         let result = false
         let phoneReg = /^1[3-9]\d{9}$/
