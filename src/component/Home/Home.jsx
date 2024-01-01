@@ -4,7 +4,7 @@ import MTInput from '../../common/components/MTInput/MTInput'
 import MTNetwork from "../../network/MTNetwork";
 import {useDispatch} from 'react-redux'
 import mainAction from '../../redux/action/mainAction'
-import backgroundTwo from '../../assets/moto_two.jpg'
+import backgroundTwo from '../../assets/moto_two.webp'
 
 const Home = () => {
     let dispatch = useDispatch()
