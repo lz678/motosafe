@@ -94,7 +94,7 @@ const Home = () => {
         <div className={Style.home_box} id='home_box_id'>
             <div className={Style.left_content}>
                 <img src={backgroundTwo} alt="" loading='lazy'/>
-                <a href="https://beian.miit.gov.cn/" target="_blank" className={Style.ICP}>蜀ICP备2022027478号-2</a>
+                <a href="https://beian.miit.gov.cn/" target="_blank" className={Style.ICP}>蜀ICP备2022027478号-1</a>
             </div>
             <div className={Style.right_content}>
 
