@@ -169,7 +169,7 @@ const Home = () => {
                     </div>
                     <div className={Style.insurance_num}>累计给{num}位骑士提供服务</div>
                 </div>
-                <a href="https://beian.miit.gov.cn/" target="_blank" className={Style.ICP}>蜀ICP备2022027478号-2</a>
+                <a href="https://beian.miit.gov.cn/" target="_blank" className={Style.ICP}>蜀ICP备2022027478号-1</a>
             </div>
         </div>
     )
